@@ -4,6 +4,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_login import LoginManager
 from flask_bcrypt import Bcrypt
 import os
+import sqlalchemy
 
 
 app = Flask(__name__)
@@ -21,4 +22,17 @@ login_manager = LoginManager(app)
 
 login_manager.login_view = "index"
 
+from usuarios import models
+
+engine = sqlalchemy.create_engine(app.config["SQLALCHEMY_DATABASE_URI"])
+inspector = sqlalchemy.inspect(engine)
+if not inspector.has_table("usuario"):
+    with app.app_context():
+        database.drop_all()
+        database.create_all()
+        print('Base de dados Criado')
+else:
+    print('Base de dados já existe')
+
 from usuarios import routes
+
