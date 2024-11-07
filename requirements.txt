@@ -1,0 +1,140 @@
+
+# #anyio==4.6.2.post1
+# #arrow==1.3.0
+# asgiref==3.7.2
+# asttokens==2.4.1
+# attrs==23.2.0
+# bcrypt==4.1.2
+# binaryornot==0.4.4
+# blinker==1.7.0
+# certifi==2024.6.2
+# cffi==1.16.0
+# chardet==5.2.0
+# charset-normalizer==3.3.2
+# click==8.1.7
+# comm==0.2.2
+# contourpy==1.2.1
+# cookiecutter==2.6.0
+# debugpy==1.8.1
+# decorator==5.1.1
+# distlib==0.3.8
+# dnspython==2.6.1
+# dominate==2.9.1
+# email_validator==2.1.1
+# et-xmlfile==1.1.0
+# executing==2.0.1
+# fastapi==0.115.4
+# filelock==3.13.1
+# Flask==3.0.2
+# Flask-Bcrypt==1.0.1
+# Flask-Bootstrap==3.3.7.1
+# Flask-Login==0.6.3
+# Flask-SQLAlchemy==3.1.1
+# Flask-WTF==1.2.1
+# #greenlet==3.0.3
+# gunicorn==21.2.0
+# #h11==0.14.0
+# httpcore==1.0.6
+# httptools==0.6.4
+# #httpx==0.27.2
+# idna==3.7
+# #ipykernel==6.29.4
+# #ipython==8.23.0
+# #itsdangerous==2.1.2
+# jedi==0.19.1
+# Jinja2==3.1.3
+# #mdurl==0.1.2
+# #MouseInfo==0.1.3
+# #nest-asyncio==1.6.0
+# oauthlib==3.2.2
+# opencv-python-headless==4.9.0.80
+# openpyxl==3.1.4
+# #outcome==1.3.0.post0
+# #packaging==23.2
+# #parso==0.8.4
+# pillow==10.2.0
+# pipenv==2024.1.0
+# #platformdirs==4.2.0
+# #prompt-toolkit==3.0.43
+# #psutil==5.9.8
+# #pure-eval==0.2.2
+# #pycparser==2.22
+# #pydantic==2.9.2
+# #pydantic_core==2.23.4
+# #PyGetWindow==0.0.9
+# #Pygments==2.17.2
+# #PyMsgBox==1.0.9
+# #pyodbc==5.1.0
+# #pyparsing==3.1.2
+# #pyperclip==1.8.2
+# #PyScreeze==0.1.30
+# #PySocks==1.7.1
+# #python-dateutil==2.9.0.post0
+# #python-dotenv==1.0.1
+# #python-slugify==8.0.4
+# #pytweening==1.2.0
+# #pytz==2024.1
+# #PyYAML==6.0.2
+# #pyzmq==26.0.2
+# #repath==0.9.0
+# requests==2.32.3
+# #rich==13.9.4
+# #setuptools==75.2.0
+# #six==1.16.0
+# #sniffio==1.3.1
+# #somepackage==1.2.3
+# #sortedcontainers==2.4.0
+# SQLAlchemy==2.0.29
+# sqlparse==0.4.4
+# stack-data==0.6.3
+# #starlette==0.41.2
+# text-unidecode==1.3
+# tkcalendar==1.6.1
+# #traitlets==5.14.3
+# #trio==0.25.1
+# #trio-websocket==0.11.1
+# #types-python-dateutil==2.9.0.20241003
+# #typing_extensions==4.11.0
+# tzdata==2024.1
+# urllib3==2.2.1
+# uvicorn==0.32.0
+# virtualenv==20.25.1
+# visitor==0.1.3
+# watchdog==4.0.2
+# watchfiles==0.24.0
+# wcwidth==0.2.13
+# websockets==13.1
+# Werkzeug==3.0.1
+# wsproto==1.2.0
+# wtf==0.1
+# WTForms==3.1.2
+
+bcrypt==4.1.2
+blinker==1.7.0
+click==8.1.7
+colorama==0.4.6
+dnspython==2.6.1
+email_validator==2.1.1
+Flask==3.0.2
+Flask-Bcrypt==1.0.1
+Flask-Login==0.6.3
+Flask-SQLAlchemy==3.1.1
+Flask-WTF==1.2.1
+greenlet==3.0.3
+gunicorn==21.2.0
+idna==3.6
+itsdangerous==2.1.2
+Jinja2==3.1.3
+MarkupSafe==2.1.5
+numpy==1.26.4
+opencv-python==4.9.0.80
+opencv-python-headless==4.9.0.80
+SQLAlchemy==2.0.29
+typing_extensions==4.10.0
+tkcalendar==1.6.1
+Werkzeug==3.0.1
+wtf==0.1
+WTForms==3.1.2
+psycopg2-binary
+pywin32==306; platform_system == "Windows"
+
