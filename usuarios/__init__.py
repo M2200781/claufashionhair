@@ -26,7 +26,7 @@ from usuarios import models
 
 engine = sqlalchemy.create_engine(app.config["SQLALCHEMY_DATABASE_URI"])
 inspector = sqlalchemy.inspect(engine)
-if not inspector.has_table("usuarios"):
+if not inspector.has_table("usuario"):
     with app.app_context():
         database.create_all()
         print('Base de dados Criado')
